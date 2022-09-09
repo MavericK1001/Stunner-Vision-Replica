@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+body {
+    overflow-x: hidden;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-text {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+header nav li {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+}
+
+form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 20px;
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+main .section-texts {
+    margin-top: 5rem;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+main h5 {
+    font-size: 15px;
+}
+
+main h3 {
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+main section {
+    margin-top: 5rem;
+}
+
+main section .card {
+    border: none;
+}
+
+main section .card-group .card img {
+    width: 50%;
+    margin: auto;
+    transition: transform .5s;
+}
+
+main section .card-group .card img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+main section .card-group .card .card-title {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+    font-weight: bold;
+    cursor: pointer;
+}
+main section .card-group .card .card-text {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 13px;
+}
+main .btn {
+    margin-bottom: 50px;
+    background-color: black;
+    border-radius: 0%;
+    padding: 10px 30px;
+    font-size: 13px;
+}
+
+main .btn:hover {
+    color: black;
+    background-color: white;
+}
