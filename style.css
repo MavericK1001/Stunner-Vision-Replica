@@ -60,6 +60,10 @@ main section .card-group .card img {
     transition: transform .5s;
 }
 
+main section .card-group .card3 img {
+    width: 80%;
+}
+
 main section .card-group .card img:hover {
     transform: scale(1.1);
     cursor: pointer;
@@ -88,4 +92,50 @@ main .btn {
 main .btn:hover {
     color: black;
     background-color: white;
+}
+
+footer .about-the-shop {
+    width: 33.33%;
+}
+footer .footer-text {
+    font-weight: bold;
+    font-size: 10px;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+footer .footer-about-us {
+    color: gray;
+    font-size: 13px;
+}
+footer .support-section {
+    width: 33.33%;
+    margin-left: 10rem;
+}
+
+footer .support-section ul li {
+    list-style: none;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+footer .support-section ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+footer .newsletter-section {
+    width: 33.33%;
+}
+
+footer .newsletter-section input {
+    border: 1px solid grey;
+    padding: 10px 10px;
+    padding-right: 5rem;
+    font-size: 13px;
+}
+
+footer .newsletter-section .btn-footer {
+    margin-top: 30px;
 }
